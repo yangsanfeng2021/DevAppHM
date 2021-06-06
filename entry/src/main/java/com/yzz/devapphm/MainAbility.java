@@ -12,6 +12,7 @@ public class MainAbility extends Ability {
     @Override
     public void onStart(Intent intent) {
         super.onStart(intent);
+        // 指定定展示的AbilitySlice
         super.setMainRoute(MainAbilitySlice.class.getName());
     }
 

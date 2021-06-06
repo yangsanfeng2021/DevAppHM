@@ -15,7 +15,7 @@
   "deviceConfig": {},
   "module": {
     "package": "com.yzz.devapphm",
-    "name": ".MyApplication",
+    "name": "com.yzz.devapphm.App",
     "deviceType": [
       "phone"
     ],

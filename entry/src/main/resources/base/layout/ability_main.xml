@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<DirectionalLayout
+<DependentLayout
     xmlns:ohos="http://schemas.huawei.com/res/ohos"
     ohos:height="match_parent"
-    ohos:width="match_parent"
-    ohos:orientation="vertical">
+    ohos:width="match_parent">
 
     <Text
-        ohos:id="$+id:text_helloworld"
+        ohos:id="$+id:text"
         ohos:height="match_content"
         ohos:width="match_content"
-        ohos:background_element="$graphic:background_ability_main"
-        ohos:layout_alignment="horizontal_center"
-        ohos:text="$string:mainability_HelloWorld"
-        ohos:text_size="50px"
-        />
+        ohos:center_in_parent="true"
+        ohos:text="Hello World"
+        ohos:text_color="#000000"
+        ohos:text_size="32fp"/>
 
-</DirectionalLayout>
+    <Button
+        ohos:id="$+id:button"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:below="$id:text"
+        ohos:bottom_padding="8vp"
+        ohos:center_in_parent="true"
+        ohos:left_padding="70vp"
+        ohos:margin="10vp"
+        ohos:right_padding="70vp"
+        ohos:text="Next"
+        ohos:text_color="#FFFFFF"
+        ohos:text_size="19fp"
+        ohos:top_padding="8vp"
+        ohos:background_element="$graphic:background_button"/>
+
+</DependentLayout>
